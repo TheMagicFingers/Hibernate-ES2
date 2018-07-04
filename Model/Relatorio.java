@@ -24,19 +24,19 @@ public class Relatorio {
 	private String MovimentacaoProduto;
 	 
 	public void setDataInicio(Date dataInicio) {
-	 
+	 	this.dataInicio = dataInicio;
 	}
 	 
 	public Date getDataInicio() {
-		return null;
+		return this.dataInicio;
 	}
 	 
 	public void setDataFim(Date dataFim) {
-	 
+	 	this.dataFim = dataFim;
 	}
 	 
 	public Date getDataFim() {
-		return null;
+		return this.dataFim;
 	}
 	 
 	public String getCodProduto() {
