@@ -20,39 +20,39 @@ public class Usuario extends PessoaFisica {
 	private int nivel;
 	 
 	public String getLogin() {
-		return null;
+		return this.login;
 	}
 	 
 	public void setUsuario(PessoaFisica usuario) {
-	 
+	 	this.usuario = usuario;
 	}
 	 
 	public PessoaFisica getUsuario() {
-		return null;
+		return this.usuario;
 	}
 	 
 	public void setLogin(String login) {
-	 
+	 	this.login = login;
 	}
 	 
 	public String getLogin() {
-		return null;
+		return this.login;
 	}
 	 
 	public void setSenha(String senha) {
-	 
+	 	this.senha = senha;
 	}
 	 
 	public String getSenha() {
-		return null;
+		return this.senha;
 	}
 	 
 	public void setNivel(int nivel) {
-	 
+	 	this.nivel = nivel;
 	}
 	 
 	public int getNivel() {
-		return 0;
+		return this.nivel;
 	}
 	 
 }
