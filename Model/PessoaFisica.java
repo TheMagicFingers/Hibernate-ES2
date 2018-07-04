@@ -14,7 +14,7 @@ public class PessoaFisica extends Pessoa implements Serializable {
 	private String CPF;
 
 	public string getCPF(String CPF) {
-		return null;
+		return this.CPF;
 	}
 	 
 }
