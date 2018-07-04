@@ -40,7 +40,7 @@ public class Relatorio {
 	}
 	 
 	public String getCodProduto() {
-		return null;
+		return this.codProduto;
 	}
 	 
 }
