@@ -20,6 +20,9 @@ public class Produto {
 	private float valorDeVenda;
 	private Integer qtdeEmEstoque;
 
+	public Produto(String nome, Float valorDeReferencia, Float valorDeVenda, Integer qtdeEmEstoque){
+		
+	}
 	public void setCodigo(String codigo) {
 		this.codigo = codigo;
 	}
