@@ -9,6 +9,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 
+@MappedSuperclass
 public interface Pessoa {
 	private String nome;
 	private String endereco;
