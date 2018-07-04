@@ -15,32 +15,36 @@ public interface Pessoa {
 	private String telefone;
 	private String email;
 	 
-	public void setNome(String nome) {
+	public void setNome(String nome) {\
+		this.nome = nome;
 	}
 	 
 	public String getNome() {
-		return null;
+		return this.nome;
 	}
 	 
 	public void setEndereco(String endereco) {
+		this.endereco = this.endereco;
 	}
 	 
 	public String getEndereco() {
-		return null;
+		return this.endereco;
 	}
 	 
 	public void setEmail(String email) {
+		this.email = email;
 	}
 	 
 	public String getEmail() {
-		return null;
+		return this.email;
 	}
 	 
-	public void setTelefone(String nome) {
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
 	}
 	 
 	public String getTelefone() {
-		return null;
+		return this.telefone;
 	}
 	 
 }
