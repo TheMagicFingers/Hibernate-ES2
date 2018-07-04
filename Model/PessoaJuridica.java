@@ -5,7 +5,7 @@ public class PessoaJuridica extends Pessoa {
 	private String CNPJ;
 	 
 	public string getCNPJ(String CNPJ) {
-		return null;
+		return this.CNPJ;
 	}
 	 
 }
