@@ -33,44 +33,50 @@ public class MovimentacaoProduto {
 	private Integer status;
 	 
 	public void setData(Date data) {
+		this.data = data;
 	}
 	 
 	public Date getData() {
-		return null;
+		return this.data;
 	}
 	public void setCodProduto(String codProduto) {
+		this.codProduto = codProduto;
 	}
 	 
 	public String getCodProduto() {
-		return null;
+		return this.codProduto;
 	}
 	 
 	public void seQtde(int qtde) {
+		this.qtde = qtde
 	}
 	 
 	public int getQtde() {
-		return 0;
+		return this.gtde;
 	}
 	 
 	public void setCodFornecedor(String codFornecedor) {
+		this.codFornecedor = codFornecedor;
 	}
 	 
 	public string getCodFornecedor() {
-		return null;
+		return this.codFornecedor;
 	}
 	 
 	public void setDestino(string destino) {
+		this.destino = destino;
 	}
 	 
 	public string getDestino() {
-		return null;
+		return this.destino;
 	}
 	 
 	public void setStatus(int status) {
+		this.status = status;
 	}
 	 
 	public int getStatus() {
-		return 0;
+		return this.status;
 	}
 	 
 }
