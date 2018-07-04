@@ -15,6 +15,7 @@ import javax.persistence.ManyToMany;
 @Entity
 public class Usuario extends PessoaFisica {
 
+	@Login
 	private String login;
 	private String senha;
 	private int nivel;
